@@ -1,0 +1,212 @@
+body {
+    margin: 0;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 200;
+}
+
+h1 {
+	font-family: 'Amatic SC', cursive;
+	color: white;
+}
+
+a {
+	text-decoration: none;
+    color: #0085ff;
+    opacity: 1;
+    transition: opacity 0.2s;
+}
+
+a:hover {
+	opacity: 0.8;
+}
+
+.hero {
+	background-image: url('/assets/images/mountain.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    background-position: 0 -275px;
+    top: 0;
+}
+
+.store-component {
+	width: 70%;
+    margin: 0 auto;
+}
+
+.nav {
+	text-align: center;
+    font-size: 11pt;
+    letter-spacing: 2px;
+    background-color: rgba(255,255,255,.1);
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.nav-link {
+	color: white;
+	margin: 0 2%;
+}
+
+.current {
+	color: #ffce70;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.2);
+}
+
+header {
+	text-shadow: 1px 1px 1px rgba(0,0,0,.1);
+	text-align: center;
+	color: white;
+	background-color: rgba(0,0,0,.1);
+    margin: 0 0 169px;
+    padding: 0 0 3px;
+}
+
+.home header {
+	margin-bottom: 300px;
+}
+
+.beer {
+    -ms-transform: rotate(-11deg);
+    -webkit-transform: rotate(-11deg);
+    transform: rotate(-11deg);
+    position: absolute;
+    top: 30px;
+    width: 120px;
+    left: 50%;
+    margin-left: -300px;
+    z-index: 1;
+}
+
+.flare {
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    margin-left: -441px;
+    width: 413px;
+    height: 462px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+50&1+0,0+100 */
+	background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%, rgb(255, 204, 142) 0%, rgba(255,255,255,0) 50%);
+	background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%,rgb(255, 204, 142) 0%,rgba(255,255,255,0) 50%);
+	background: radial-gradient(ellipse at center,  rgba(255,255,255,1) 0%,rgb(255, 204, 142) 0%,rgba(255,255,255,0) 50%);
+	opacity: 0.3;
+}
+
+header h1 {
+    font-weight: lighter;
+    margin: 0 0 -6px;
+}
+
+header p {
+    font-size: 11pt;
+    margin: 0;
+    
+}
+
+.content {
+	background-color: #f3f3f3;
+	box-shadow: 0 0 28px black;
+	padding: 4% 15%;
+	border-top: 3px solid #f9c258;
+	margin-top: 300px;
+}
+
+.title {
+	font-size: 12pt;
+    text-align: left;
+    margin: 0 50px 15px 0;
+}
+
+.item {
+	display: inline-block;
+    width: 46%;
+    box-sizing: border-box;
+    vertical-align: top;
+    background-color: white;
+    padding: 15px 20px;
+    box-shadow: 1px 1px 3px #dadada;
+    margin: 2%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    top: 0;
+    transition: top 0.2s;
+}
+
+.item:hover {
+	top: -3px;
+}
+
+.item strong {
+	position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #d24141;
+    padding: 3px 6px;
+    color: white;
+    font-weight: lighter;
+}
+
+.row {
+	display: table;
+	width: 100%;
+}
+
+.shop-top {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.content h1, .shop-top {
+	color: #3e5058;
+}
+
+.shop-top p {
+	font-family: 'Prompt', sans-serif;
+    font-size: 11pt;
+    font-weight: lighter;
+    margin: 0 0 -2px;
+}
+
+.shop-top h1 {
+	margin: 0;
+}
+
+.shop-top .ebay {
+	width: 83px;
+}
+
+.home .hero {
+	height: 100%;
+	background-position: 0 0;
+}
+
+.home .content {
+	position: absolute;
+    top: 100%;
+    width: 100%;
+    margin-top: 0;
+}
+
+.social {
+	position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0,0,0,.35);
+}
+
+.social h1 {
+    margin: 5px 0 8px;
+    font-size: 19pt;
+    font-weight: lighter;
+    text-shadow: 0px 0px 7px black;
+    letter-spacing: 1px;
+}
+
+.social a {
+	color: #add8ff;
+}

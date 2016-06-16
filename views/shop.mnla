@@ -1,0 +1,45 @@
+<: include top :>
+
+<div class="content">
+
+	<div class="shop-top">
+
+		<h1>Rainier Fan Shop</h1>
+
+		<p>powered by</p>
+
+		<img class="ebay" src="/assets/images/EBay_logo.png"/>
+
+	</div>
+
+	<: for (var i = 0; i < items.length; i += 2) { :>
+
+		<div class="row">
+
+			<a class="item" href="<:items[i].link:>" target="_blank">
+
+				<h3 class="title"><:items[i].title:></h3>
+
+				<::items[i].image::>
+				
+				<strong>$<:items[i]['e:CurrentPrice']:></strong>
+
+			</a><!--<:if (items[i+1]) {:>--><a class="item" href="<:items[i+1].link:>" target="_blank">
+
+					<h3 class="title"><:items[i+1].title:></h3>
+
+					<::items[i+1].image::>
+					
+					<strong>$<:items[i+1]['e:CurrentPrice']:></strong>
+
+				</a>
+
+			<:}:>
+
+		</div>
+
+	<:}:>
+
+</div>
+
+<: include bottom :>

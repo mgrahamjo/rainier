@@ -1,0 +1,17 @@
+<: include top :>
+
+	<div class="flare"></div>
+
+	<img class="beer" src="/assets/images/beer.png" />
+
+	<div class="social">
+
+		<h1>Join the party on <a href="https://facebook.com/rainierpalemountainale">Facebook</a> and <a href="https://twitter.com/rainierpalefan">Twitter</a>
+
+	</div>
+
+	<div class="content">
+
+	</div>
+
+<: include bottom :>

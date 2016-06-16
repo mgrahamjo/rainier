@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rainier Pale Mountain Ale</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link href='https://fonts.googleapis.com/css?family=Prompt:400,200' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
+</head>
+<body class="<:current:>">
+	<div class="hero">
+		<div class="nav">
+			<a class="nav-link<:if (current === 'home') {:> current<:}:>" href="/">HOME</a>
+			<a class="nav-link<:if (current === 'shop') {:> current<:}:>" href="/shop">SHOP</a>
+			<a class="nav-link<:if (current === 'reviews') {:> current<:}:>" href="/reviews">REVIEWS</a>
+			<a class="nav-link<:if (current === 'media') {:> current<:}:>" href="/media">MEDIA</a>
+		</div>
+		<header>
+			<h1>Rainier Pale Mountain Ale</h1>
+			<p>For fans of Rainier's newest beer</p>
+		</header>
+	</div>
